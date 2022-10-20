@@ -83,7 +83,7 @@ namespace DailyCostWebApplication.Controllers
                 Comment = cost.Comment,
                 CategoryID = cost.CategoryID,
                 PaymentMethod = cost.PaymentMethod,
-                ExsitingFile = cost.InvoiceImagePath
+                ExsitingFile = cost.ExsitingFile
             };
             LoadDropdownList();
             return View(model);
